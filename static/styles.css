@@ -1,0 +1,48 @@
+/* Основне оформлення */
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Заголовок */
+h1 {
+  color: #222;
+  font-weight: 700;
+}
+
+/* Список задач */
+#task-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#task-list li.list-group-item {
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Стан виконаних задач */
+.done {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+/* Стан прострочених задач */
+.overdue {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+/* Кнопка "Очистити виконані" */
+#clear-done {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+/* Модальне вікно */
+.modal-content {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
